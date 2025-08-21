@@ -1,6 +1,6 @@
 import "./UserGuide.css";
 import GuideImg from "../images/GuideImg.png"
-import GreenMark from "../images/Green-mark.png"
+import GreenMark from "../images/green-mark.png"
 export default function UserGuide() {
     return (
         <div>
