@@ -1,5 +1,5 @@
 import StarImg from "../images/StarImg.png"
-import FirstClient from "../images/FirstClient.png"
+import FirstClient from "../images/firstClient.png"
 import PlayImg from "../images/PlayImg.png"
 import "./Client.css"
 export default function Client() {
