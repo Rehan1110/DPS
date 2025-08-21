@@ -1,0 +1,36 @@
+.companies-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+
+.companies-heading {
+    font-size: 34px;
+    line-height: 47px;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: #233A41;
+}
+.companies-para {
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0;
+    font-weight: 300;
+    color: #132A31;
+}
+
+.inner-container {
+    display: grid;
+    grid-template-columns: 45% 55%;
+}
+.companies-inner {
+    display: flex;
+    align-items: center;
+    gap:16px;
+}
+.comapny-para {
+    font-size: 15px;
+    font-weight: 500;
+    color: #132A31;
+    line-height: 28px;
+    letter-spacing: 0;
+}

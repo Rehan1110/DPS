@@ -1,0 +1,21 @@
+.client-heading {
+    font-size:46px;
+    font-weight:600;
+    letter-spacing: 0;
+    line-height: 67px;
+    color: #233A41;
+    text-align: center;
+}
+
+.client-para {
+    font-size:15px;
+    font-weight:300;
+    letter-spacing: 0;
+    line-height: 33px;
+    color: #233A41;
+    text-align: center;
+}
+.client-comp-container {
+    display: flex;
+    gap: 4%;
+}

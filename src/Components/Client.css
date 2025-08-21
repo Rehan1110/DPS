@@ -1,0 +1,9 @@
+.client-image {
+    position: relative;
+     clip-path: polygon(0 0, 100% 0, 100% 90%, 90% 100%, 0 100%);
+}
+.green-circle {
+    position: absolute;
+    bottom:10%;
+    left:7%;
+}

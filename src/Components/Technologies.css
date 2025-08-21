@@ -1,0 +1,25 @@
+.container-box {
+    width: 356px;
+    height: 260px;
+}
+.lists {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding-left: 0px;
+}
+.paragraph {
+    font-size: 20px;
+    font-weight:600;
+    letter-spacing: 0;
+    line-height: 100%;
+    color: #233A41;
+}
+li {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0;
+    color:#000000
+}
