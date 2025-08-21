@@ -1,6 +1,6 @@
 import "./Hire.css"
 import HireImg from "../images/Hire_Img.png"
-import WhiteArrowImg from "../images/WhiteArrow.png"
+import WhiteArrowImg from "../images/whiteArrow.png"
 export default function Hire() {
     return (
         <div className="hirebox-container">
