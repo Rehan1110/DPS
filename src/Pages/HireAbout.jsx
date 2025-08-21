@@ -1,4 +1,4 @@
-import FirstImg from "../images/HireAbout_First.png";
+import FirstImg from "../images/HireAbout_first.png";
 import TickImg from "../images/green-tick.png"
 import "./HireAbout.css"
 export default function HireAbout() {
