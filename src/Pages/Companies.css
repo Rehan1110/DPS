@@ -1,6 +1,8 @@
 .companies-container {
     display: grid;
     grid-template-columns: 45% 55%;
+    gap:25px;
+    padding: 3% 7% 3% 9%;
 }
 
 .companies-heading {
@@ -33,4 +35,11 @@
     color: #132A31;
     line-height: 28px;
     letter-spacing: 0;
+}
+
+@media (max-width: 768px) {
+    .companies-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
 }

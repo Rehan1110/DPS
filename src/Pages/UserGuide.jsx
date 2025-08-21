@@ -3,7 +3,7 @@ import GuideImg from "../images/GuideImg.png"
 import GreenMark from "../images/green-mark.png"
 export default function UserGuide() {
     return (
-        <div>
+        <div className="guide-outer-container">
             <h1 className="guide-heading">User Guide to Hire Dedicated Software Developers</h1>
             <div className="guide-inner-container">
                 <div className="para-lists">
@@ -44,7 +44,7 @@ export default function UserGuide() {
                                         <p className="comapny-para">Agile adaptability</p>
                                     </div>
                                 </div>
-                                <img src={GuideImg} />
+                                <img src={GuideImg} alt="Guide Image" className="guide-image"/>
                 </div>
             </div>
         </div>

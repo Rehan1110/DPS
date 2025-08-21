@@ -5,6 +5,7 @@
     line-height: 67px;
     color: #233A41;
     text-align: center;
+    margin-bottom: 0px;
 }
 
 .client-para {
@@ -14,8 +15,20 @@
     line-height: 33px;
     color: #233A41;
     text-align: center;
+    margin-top: 0px;
 }
 .client-comp-container {
     display: flex;
     gap: 4%;
+}
+.client-main-container {
+      padding: 3% 7% 3% 9%;
+}
+
+@media (max-width: 768px) {
+    .client-comp-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 4%;
+}
 }

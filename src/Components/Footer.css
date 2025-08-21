@@ -3,11 +3,13 @@
     grid-template-columns: 30% 20% 20% 30%;
     background-color: #000000;
     margin-bottom: 0px;
+     padding: 3% 7% 3% 9%;
 }
 .footer-logo-text{
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
 }
 .footer-logo-text p {
     font-weight:bold;
@@ -29,6 +31,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .logo-container {
     display: flex;

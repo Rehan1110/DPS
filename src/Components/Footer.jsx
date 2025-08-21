@@ -1,5 +1,8 @@
 import Logo from "../images/Vector.png"
 import FbImg from "../images/fbImg.png"
+import TwitterImg from "../images/twitterImg.png"
+import LinkedinImg from "../images/linkedinImg.png"
+import YoutubeImg from "../images/ytImg.png"
 import "./Footer.css"
 export default function Footer() {
     return (
@@ -10,7 +13,7 @@ export default function Footer() {
                     <img src={Logo} alt="Logo" width="40px" height="40px"/>
                     <p>Logoipsum</p>
                 </div>
-                <p className="footer-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</p>
+                <p className="footer-para">Lorem ipsum dolor sit amet, consectetur<br></br> adipiscing elit, sed do eiusmod tempor<br></br> incididunt ut labore et</p>
                 <div className="logo-container">
                 <div className="logo-footer">
                     <div>
@@ -19,17 +22,17 @@ export default function Footer() {
                 </div>
                 <div className="logo-footer">
                     <div>
-                        <img src={FbImg}/>
+                        <img src={TwitterImg}/>
                     </div>
                 </div>
                 <div className="logo-footer">
                     <div>
-                        <img src={FbImg}/>
+                        <img src={LinkedinImg}/>
                     </div>
                 </div>
                 <div className="logo-footer">
                     <div>
-                        <img src={FbImg}/>
+                        <img src={YoutubeImg}/>
                     </div>
                 </div>
                 </div>
@@ -58,11 +61,11 @@ export default function Footer() {
              </div>
               <div className="footer-service-container">
                 <img src={FbImg} alt="Location" width="24px" height="24px" />
-                <p>Envato, Level 13, 2 Elizabeth Victoria 3000 India</p>
+                <p>+91 861 944 1176</p>
              </div>
               <div className="footer-service-container">
                 <img src={FbImg} alt="Location" width="24px" height="24px" />
-                <p>Envato, Level 13, 2 Elizabeth Victoria 3000 India</p>
+                <p>ezyoga@gmail.com</p>
              </div>
             </div>    
         </div>

@@ -9,8 +9,8 @@
     position: relative;
 }
 .notifications-box {
-    width: 63px;
-    height: 63px;
+    width: 60px;
+    height: 60px;
     background-color: #FF8C91;
     border-radius: 50%;
     font-weight: bold;
@@ -36,6 +36,7 @@
     font-weight: 600;
     color: #233A41;
     text-align: center;
+    margin-bottom: 0;
 }
 .process-last {
     font-size: 14px;
@@ -44,6 +45,7 @@
     font-weight: 300;
     color: #233A41;
     text-align: center;
+    margin: 0;
 }
 .process-heading {
     font-size: 50px;
@@ -52,6 +54,7 @@
     letter-spacing: 0;
     text-align: center;
     color: #233A41;
+    margin-bottom: 15px;
 }
 
 .process-para {
@@ -61,15 +64,32 @@
     letter-spacing: 0;
     color:#132A31;
     text-align: center;
+    margin-bottom: 30px;
 }
 .process-inner-container {
     width:250px;
     display: flex;
-    gap:30px;
+    gap:32px;
 }
 .process-container {
     display: flex;
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
+    padding: 3% 7% 3% 10%;
+    background-image: url("/ProcessBgImg.png");
 }
+.right-arrow {
+    position: relative;
+    top: 100px;
+}
+
+@media (max-width: 768px) {
+    .process-inner-container{
+     display: flex;
+    flex-direction: column;
+    }
+   .right-arrow{
+    display: none;
+   }
+} 

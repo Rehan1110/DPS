@@ -31,6 +31,7 @@
   letter-spacing: 0;
   font-weight: 400;
   color: #233A41;
+  margin-bottom: 0;
 }
 .box-para {
     font-size: 15px;
@@ -38,10 +39,39 @@
     line-height: 27px;
     letter-spacing: 0;
     color: #132A31;
+    margin-top: 0;
 }
 .green-image-container {
     background-color: #2FC980;
     width: 24px;
     height: 24px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-image-container {
+    background-color: #FF8C91;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hire-about-container {
+    padding: 3% 7% 0% 9%;
+    margin-bottom: 0px;
+}
+.tick-box-container {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .tick-box-container {
+        display: flex;
+    }
 }
