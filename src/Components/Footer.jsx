@@ -4,7 +4,7 @@ import TwitterImg from "../images/twitterImg.png"
 import LinkedinImg from "../images/linkedinImg.png"
 import YoutubeImg from "../images/ytImg.png"
 import Location from "../images/Location.png";
-import telephone from "../images/telephone.png"
+import telephone from "../images/Telephone.png"
 import "./Footer.css"
 export default function Footer() {
     return (

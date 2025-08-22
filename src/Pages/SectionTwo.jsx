@@ -1,7 +1,7 @@
 import "./SectionTwo.css";
 import ArrowImg from "../images/Arrow.png";
 import GreenRectangleImg from "../images/green-rectangle.png"
-import WhiteArrow from "../images/WhiteArrow.png"
+import WhiteArrow from "../images/whiteArrow.png"
 export default function SectionTwo() {
     return (
         <div className="container">
