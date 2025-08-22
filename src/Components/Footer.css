@@ -10,6 +10,7 @@
     align-items: center;
     gap: 10px;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 .footer-logo-text p {
     font-weight:bold;
@@ -32,6 +33,7 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    flex-wrap: wrap;
 }
 .logo-container {
     display: flex;
@@ -41,6 +43,7 @@
 display: flex;
 align-items: center;
 gap:12px;
+ flex-wrap: wrap;
 }
 .services h1,
 .quick-links h1,
