@@ -3,6 +3,8 @@ import FbImg from "../images/fbImg.png"
 import TwitterImg from "../images/twitterImg.png"
 import LinkedinImg from "../images/linkedinImg.png"
 import YoutubeImg from "../images/ytImg.png"
+import Location from "../images/Location.png";
+import telephone from "../images/telephone.png"
 import "./Footer.css"
 export default function Footer() {
     return (
@@ -56,15 +58,15 @@ export default function Footer() {
            <div className="contact-us">
              <h1>Contact Us</h1>
              <div className="footer-service-container">
-                <img src={FbImg} alt="Location" width="24px" height="24px" />
+                <img src={Location} alt="Location" width="24px" height="24px" />
                 <p>Envato, Level 13, 2 Elizabeth Victoria 3000 India</p>
              </div>
               <div className="footer-service-container">
-                <img src={FbImg} alt="Location" width="24px" height="24px" />
+                <img src={telephone} alt="Location" width="24px" height="24px" />
                 <p>+91 861 944 1176</p>
              </div>
               <div className="footer-service-container">
-                <img src={FbImg} alt="Location" width="24px" height="24px" />
+                <img src={telephone} alt="Location" width="24px" height="24px" />
                 <p>ezyoga@gmail.com</p>
              </div>
             </div>    

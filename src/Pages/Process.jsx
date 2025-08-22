@@ -28,7 +28,7 @@ export default function Process() {
                 <div className="process-image-container">
                     <img src={HiringTwoImg} alt="Image" width="66px" height="72px"/>
                     <div className="notifications-box">
-                    <p className="notifications-para">1</p>
+                    <p className="notifications-para">2</p>
                     </div>
                 </div>
                 <p className="process-inquiry">Select Developers</p>
@@ -41,7 +41,7 @@ export default function Process() {
                 <div className="process-image-container">
                     <img src={HiringThreeImg} alt="Image" width="66px" height="72px"/>
                     <div className="notifications-box">
-                    <p className="notifications-para">1</p>
+                    <p className="notifications-para">3</p>
                     </div>
                 </div>
                 <p className="process-inquiry">Team Integration</p>
@@ -54,7 +54,7 @@ export default function Process() {
                 <div className="process-image-container">
                     <img src={HiringFourImg} alt="Image" width="66px" height="72px"/>
                     <div className="notifications-box">
-                    <p className="notifications-para">1</p>
+                    <p className="notifications-para">4</p>
                     </div>
                 </div>
                 <p className="process-inquiry">Team Scaling</p>
