@@ -12,6 +12,10 @@
     color: #FFFFFF;
     text-align: left;
 }
+.Hiring-Image {
+    max-width: 580px;
+    width: 100%;
+}
 .hire-right-part {
     display: flex;
    align-items: center;
@@ -38,4 +42,39 @@
 }
 .hire-right-img {
     cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .hirebox-container {
+        grid-template-columns: 1fr;  
+        padding: 20px;
+        text-align: center;
+    }
+
+    .hire-para {
+        font-size: 28px;
+        line-height: 38px;
+        text-align: center;
+    }
+
+    .hire-right-part {
+        flex-direction: column;  
+        align-items: center;
+        gap: 15px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .hire-right-para {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .line {
+        width: 100%;   
+    }
+
+    .hire-lists {
+        top: 0;   
+    }
 }

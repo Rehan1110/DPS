@@ -27,8 +27,25 @@
 
 @media (max-width: 768px) {
     .client-comp-container {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    gap: 4%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        justify-items: center; 
+    }
+
+    .client-heading {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    .client-para {
+        font-size: 13px;
+        line-height: 20px;
+    }
 }
+
+@media (max-width: 480px) {
+    .client-comp-container {
+        grid-template-columns: 1fr; 
+    }
 }

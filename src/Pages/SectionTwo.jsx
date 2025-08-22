@@ -24,8 +24,9 @@ export default function SectionTwo() {
             </button>
             </div>
         </div>
-        <div style={{width:'460px'}}>
-            <div style={{width:'400px'}}> 
+        <div style={{maxWidth:'460px',width:'100%'}}>
+            <div style={{maxWidth:'400px',width:'100%'}}> 
+              <div className="form-container">
             <div className="form-heading"> 
                 <h2 className="form-text">Create Your Team</h2>
                 <p className="form-para">Lorem Ipsum is Simply Dummy Text of the Printing</p>
@@ -52,10 +53,11 @@ export default function SectionTwo() {
     <textarea placeholder="Enter your Project Brief"></textarea>
   </div>
 </form>
-<button className="view-more-button" style={{marginLeft:'20px',paddingLeft:'23%',paddingRight:'23%'}}>
+<button className="view-more-button" style={{marginLeft:'20px',paddingLeft:'20%',paddingRight:'20%'}}>
     Hire Software Developer
      <img src={WhiteArrow} className="Arrow-Img"/>
     </button>
+    </div>
         </div>
         </div>
         </div>

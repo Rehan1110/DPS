@@ -72,11 +72,31 @@ gap:12px;
  text-align: center;
  color: #FFFFFF;
 }
+@media (max-width: 1024px) {
+    .footer {
+        grid-template-columns: 50% 50%;
+        text-align: center;
+    }
+}
+
+
 @media (max-width: 768px) {
-  .footer {
-    grid-template-columns: 100%;
-    text-align: center;
-    row-gap: 15px;
-    padding: 20px;
-  }
+    .footer {
+        grid-template-columns: 1fr;
+        text-align: center;
+        row-gap: 20px;
+        padding: 20px;
+    }
+
+    .footer-para {
+        text-align: center;
+    }
+
+    .logo-container {
+        justify-content: center;
+    }
+
+    .footer-service-container {
+        justify-content: center;
+    }
 }

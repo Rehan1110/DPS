@@ -23,3 +23,40 @@ li {
     letter-spacing: 0;
     color:#000000
 }
+
+@media (max-width: 768px) {
+    .container-box {
+        width: 100%;     
+        height: auto;    
+        padding: 15px;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        justify-content: center;
+    }
+
+    .paragraph {
+        font-size: 18px;  
+        text-align: center;
+    }
+
+    .lists {
+        flex-direction: column;  
+        gap: 10px;
+        align-items: center;    
+    }
+
+    li {
+        font-size: 13px;  
+        text-align: center;
+    }
+
+    
+    .container-box img {
+        display: block;
+        margin: 0 auto;    
+        max-width: 100%;    
+        height: auto;
+    }
+}
+

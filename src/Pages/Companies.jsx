@@ -5,7 +5,11 @@ export default function Companies() {
     return (
         <div className="companies-container">
            <div>
-            <img src={CompaniesImg} width="520px" height="520px" />
+          <img 
+            src={CompaniesImg} 
+            alt="Companies"
+            className="companies-image"
+            />
            </div>
            <div>
             <h1 className="companies-heading">Top Companies Trust ValueCoders For Hiring Software Developers</h1>

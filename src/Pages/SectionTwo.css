@@ -73,6 +73,10 @@
   flex-direction: column;
   text-align: center;
 }
+.Rectangle-Image {
+  max-width: 200px;
+  width:100%;
+}
 .form-text {
     font-size: 20px;
     font-weight:600;
@@ -116,7 +120,51 @@
   .heading-left-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
   }
+  .form-container {
+  width: 100%;        
+  max-width: 500px;  
+  margin: 0 auto;     
+}
   .form-box {
+  padding: 20px;
+  width: 100%; 
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;   
     padding: 20px;
   }
+
+  .heading-one {
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .heading-two {
+    font-size: 50px;
+    text-align: center;
+  }
+
+  .para-one, 
+  .para-two {
+    text-align: center;
+  }
+
+  form {
+    grid-template-columns: 1fr; 
+  }
+
+  .view-more-button, 
+  .get-in-touch-button {
+    width: 100%; 
+    margin: 10px 0;
+  }
+
+  .form-container {
+    max-width: 100%;  
+  }
+}

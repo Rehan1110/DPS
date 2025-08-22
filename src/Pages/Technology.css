@@ -25,7 +25,18 @@
 }
 
 @media (max-width: 768px) {
-    .technology-container{
-        display: flex;
+    .technology-container {
+        grid-template-columns: 1fr;  
+    }
+
+    .Technology-outer-container h1 {
+        font-size: 28px;   
+        line-height: 40px;
+    }
+
+    .Technology-outer-container p {
+        font-size: 14px;   
+        line-height: 22px;
+        text-align: center;
     }
 }

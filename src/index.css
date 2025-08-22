@@ -1,0 +1,12 @@
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+ul,li,p, h1,h2,h3,div {
+    font-family: 'poppins',sans-serif;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* horizontal scroll hatane ke liye */
+}

@@ -6,7 +6,7 @@ export default function Hire() {
         <div className="hirebox-container">
             <div>
                 <h1 className="hire-para">Why Hire Software Developers <br></br>in India?</h1>
-                <img src={HireImg} width="580px" />
+                <img src={HireImg} alt="Hiring Image" className="Hiring-Image" />
             </div>
             <div className="hire-lists">
               <div className="hire-right-part">

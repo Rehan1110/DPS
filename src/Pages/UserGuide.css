@@ -51,6 +51,7 @@ color: #000000;
 .guide-image{
     max-width: 670px;
     max-height: 200px;
+    width: 100%;
 }
 
 @media (max-width: 768px) {
